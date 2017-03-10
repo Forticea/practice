@@ -29,7 +29,7 @@
 		$("#pagination").append("<ul></ul>");
 		var p = $("#pagination ul");
 		if (pagination.prev > -1)
-			p.append("<li><a href='list?pageNo=" + pagination.prev + "'>이전으로</a></li>");
+			p.append("<li><a href='list?pageNo=" + pagination.prev + "'>이전으로ㅎㅎ</a></li>");
 		for (var i = pagination.startPage; i <= pagination.endPage; i++)
 			p.append("<li><a href='list?pageNo=" + i + "'>" + i + "</a></li>");
 		if (pagination.next > -1)
