@@ -7,8 +7,8 @@
 	<packaging>war</packaging>
 		<dependencies>
 	<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
+			<groupId>org.projectlombok</groupId>//바보			
+<artifactId>lombok</artifactId>
 			<version>1.16.12</version>
 		</dependency>
 		<dependency>
