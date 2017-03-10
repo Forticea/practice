@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+#header {
+	background: #f8f8f8;
+	height: 40px;
+}
+#header ul li:FIRST-CHILD {
+	font-size: 1.25em;
+	margin-left: 20px;
+}
+#header ul {
+	list-style: none;
+	display: inline-block;
+}
+#header ul li {
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+#header ul li a {
+	color: #337AB7;
+}
+#header ul li a:LINK, #header ul li a:VISITED {
+	color: #337AB7;
+	text-decoration: none;
+}
+#header ul li:hover {
+	background: #337AB7;
+}
+#header ul li:hover a {
+	color: white;
+}
+#header ul li:FIRST-CHILD:hover {
+	color: #333;
+	background: #f8f8f8;
+}
